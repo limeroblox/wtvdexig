@@ -68,50 +68,71 @@ DefaultSettings = (function()
 			ScaleType = 0 -- 0 Full Name Shown, 1 Equal Halves
 		},
 		Theme = {
-			_Recurse = true,
-			Main1 = rgb(52,52,52),
-			Main2 = rgb(45,45,45),
-			Outline1 = rgb(33,33,33), -- Mainly frames
-			Outline2 = rgb(55,55,55), -- Mainly button
-			Outline3 = rgb(30,30,30), -- Mainly textbox
-			TextBox = rgb(38,38,38),
-			Menu = rgb(32,32,32),
-			ListSelection = rgb(11,90,175),
-			Button = rgb(60,60,60),
-			ButtonHover = rgb(68,68,68),
-			ButtonPress = rgb(40,40,40),
-			Highlight = rgb(75,75,75),
-			Text = rgb(255,255,255),
-			PlaceholderText = rgb(100,100,100),
-			Important = rgb(255,0,0),
-			ExplorerIconMap = "",
-			MiscIconMap = "",
-			Syntax = {
-				Text = rgb(204,204,204),
-				Background = rgb(36,36,36),
-				Selection = rgb(255,255,255),
-				SelectionBack = rgb(11,90,175),
-				Operator = rgb(204,204,204),
-				Number = rgb(255,198,0),
-				String = rgb(173,241,149),
-				Comment = rgb(102,102,102),
-				Keyword = rgb(248,109,124),
-				Error = rgb(255,0,0),
-				FindBackground = rgb(141,118,0),
-				MatchingWord = rgb(85,85,85),
-				BuiltIn = rgb(132,214,247),
-				CurrentLine = rgb(45,50,65),
-				LocalMethod = rgb(253,251,172),
-				LocalProperty = rgb(97,161,241),
-				Nil = rgb(255,198,0),
-				Bool = rgb(255,198,0),
-				Function = rgb(248,109,124),
-				Local = rgb(248,109,124),
-				Self = rgb(248,109,124),
-				FunctionName = rgb(253,251,172),
-				Bracket = rgb(204,204,204)
-			},
-		},
+	_Recurse = true,
+
+	Main1 = rgb(24,24,28),
+	Main2 = rgb(30,30,36),
+
+	Outline1 = rgb(40,40,48), -- Frames
+	Outline2 = rgb(55,55,65), -- Buttons
+	Outline3 = rgb(20,20,24), -- Textboxes
+
+	TextBox = rgb(32,32,38),
+	Menu = rgb(22,22,26),
+
+	ListSelection = rgb(70,120,255),
+
+	Button = rgb(42,42,50),
+	ButtonHover = rgb(52,52,62),
+	ButtonPress = rgb(30,30,36),
+
+	Highlight = rgb(70,70,82),
+
+	Text = rgb(235,235,240),
+	PlaceholderText = rgb(120,120,130),
+
+	Important = rgb(255,85,85),
+
+	ExplorerIconMap = "",
+	MiscIconMap = "",
+
+	Syntax = {
+		Text = rgb(220,220,225),
+		Background = rgb(24,24,28),
+
+		Selection = rgb(255,255,255),
+		SelectionBack = rgb(70,120,255),
+
+		Operator = rgb(212,212,212),
+
+		Number = rgb(255,203,107),
+		String = rgb(152,195,121),
+		Comment = rgb(106,115,125),
+
+		Keyword = rgb(198,120,221),
+		Error = rgb(255,85,85),
+
+		FindBackground = rgb(120,90,20),
+		MatchingWord = rgb(60,60,70),
+
+		BuiltIn = rgb(97,175,239),
+
+		CurrentLine = rgb(35,35,42),
+
+		LocalMethod = rgb(224,175,104),
+		LocalProperty = rgb(97,175,239),
+
+		Nil = rgb(255,203,107),
+		Bool = rgb(255,203,107),
+
+		Function = rgb(198,120,221),
+		Local = rgb(229,192,123),
+		Self = rgb(224,108,117),
+
+		FunctionName = rgb(97,175,239),
+		Bracket = rgb(212,212,212)
+	},
+},
 		ScriptViewer = {
 			ShowMoreInfo = true;
 		},
